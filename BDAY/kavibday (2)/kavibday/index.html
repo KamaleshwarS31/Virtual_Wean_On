@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page login">
+  <div class="login-container">
+    <div class="login-card">
+      <p class="eyebrow">Welcome</p>
+      <h1>Birthday Surprise</h1>
+      <p class="sub">A small puzzle before the surprises.</p>
+
+      <input type="text" id="username" placeholder="Username" autocomplete="off">
+      <input type="password" id="password" placeholder="Password">
+
+      <button onclick="login()">Unlock</button>
+
+      <div class="clue-box">
+        <p class="clue-title">Username clue</p>
+        <p>Try your name in different cases.</p>
+
+        <p class="clue-title">Password clue</p>
+        <p>How I call you...</p>
+      </div>
+
+      <p id="error" class="error"></p>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
